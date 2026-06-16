@@ -93,18 +93,15 @@ The compliance-aware prompting direction is important. A real estate assistant s
 
 This repository is currently in the planning stage. It includes the project concept, target features, planned stack, and milestone outline, but it does not yet include the backend, frontend, Firestore integration, or deployed application code.
 
-That is acceptable for an early portfolio project as long as it is labeled clearly. The next strongest improvement would be adding a minimal working chat endpoint and frontend widget so reviewers can see the concept running.
+That is acceptable for an early portfolio project as long as it is labeled clearly. The repository now includes an AI safety and security plan so reviewers can see the intended controls before implementation begins.
 
-## Screenshots
+## Evidence / Planning Artifacts
 
-Suggested screenshots to add after implementation:
+Current artifacts:
 
-- `screenshots/chat-widget.png`
-- `screenshots/lead-classification-result.png`
-- `screenshots/firestore-lead-record.png`
-- `screenshots/handoff-flow.png`
-- `screenshots/admin-dashboard.png`
-- `screenshots/architecture.png`
+- `README.md`
+- `docs/ai-safety-plan.md`
+- `LICENSE`
 
 ## Challenges & Lessons Learned
 
@@ -130,4 +127,4 @@ It is also relevant to software engineering roles because it shows product think
 - Add compliance guardrails and example refusal cases.
 - Add a basic admin dashboard.
 - Add deployment instructions and environment variable documentation.
-- Add screenshots and a short demo video once the app is working.
+- Add a short demo video once the app is working.
